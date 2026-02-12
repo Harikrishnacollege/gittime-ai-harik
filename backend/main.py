@@ -132,3 +132,11 @@ async def feature_evolution(req: dict):
 @app.get("/api/health")
 async def health():
     return {"status": "ok"}
+
+
+import os
+import uvicorn
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 10000))
+    uvicorn.run("main:app", host="0.0.0.0", port=port)

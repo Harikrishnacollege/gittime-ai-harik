@@ -5,4 +5,4 @@ python-dotenv==1.0.1
 pydantic==2.9.2
 langgraph==0.2.60
 langchain-groq==0.2.4
-langchain-core==0.3.28
+langchain-core==0.3.33
